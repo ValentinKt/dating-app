@@ -1,0 +1,260 @@
+# ===================================
+# Dating App - .gitignore
+# React + Vite + Tailwind CSS Project
+# ===================================
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+out/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+.nyc_output/
+
+# Vite
+.vite/
+node_modules/.vite/
+
+# Testing
+.vitest/
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Editor directories and files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Package managers
+yarn.lock
+pnpm-lock.yaml
+package-lock.json
+
+# Tailwind CSS
+# (Uncomment if using Tailwind CLI)
+# tailwind.config.js.backup
+
+# Storybook
+.storybook/build/
+storybook-static/
+
+# Firebase
+.firebase/
+.firebaserc
+firebase-debug.log
+firebase-debug.*.log
+
+# Vercel
+.vercel/
+
+# Netlify
+.netlify/
+
+# Local development
+.local/
+*.local
+
+# Backup files
+**/*.backup.*
+**/*.back.*
+*.bak
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# WebStorm
+.idea/
+
+# Visual Studio
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Sass
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+# ESLint
+.eslintcache
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache/
+.parcel-cache/
+
+# Next.js build output
+.next/
+
+# Nuxt.js build / generate output
+.nuxt/
+
+# Gatsby files
+.cache/
+public/
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test/
+
+# Temporary folders
+tmp/
+temp/
+
+# Runtime configuration files
+.npmrc
+.yarnrc
+
+# Lock files (choose one based on your package manager)
+# yarn.lock
+# pnpm-lock.yaml
+# package-lock.json
+
+# Sentry
+.sentryclirc
+
+# Bundle analyzer
+bundle-analyzer-report.html
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional stylelint cache
+.stylelintcache
+
+# Ignore all .env files except .env.example
+.env*
+!.env.example
+
+# Ignore uploaded files in development
+uploads/
+
+# Ignore generated documentation
+docs/generated/
+
+# Ignore local database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Ignore certificate files
+*.pem
+*.key
+*.crt
+
+# Ignore local configuration
+config/local.json
+config/development.json
+config/production.json
+
+# Ignore analytics and tracking files
+analytics/
+tracking/
+
+# Ignore generated favicons
+favicons/
+
+# Ignore service worker cache
+sw-cache/
+workbox-cache/
+
+# Ignore Lighthouse reports
+lighthouse-reports/
+
+# Ignore performance budgets
+performance-budget.json
+
+# Ignore security scan results
+security-scan-results/
+
+# Ignore dependency vulnerability reports
+vulnerability-reports/
